@@ -1,0 +1,98 @@
+body {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    color: rgba(0,0,0,0.8);
+    font-size: 1.094rem;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: 700;
+    color: rgba(0,0,0,1);
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 1.5rem 0 1.2rem 0;
+    font-size: 3rem;
+}
+
+h2 {
+    margin: 1.1rem 0 1rem 0;
+    font-size: 1.88rem;
+}
+
+h3 {
+    margin: 0.9rem 0 0.7rem 0;
+    font-size: 1.32rem;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+.slogan {
+    font-family: "Inconsolata";
+    text-transform: none;
+    font-weight: 400;
+}
+
+p a, li a {
+    color: #000000;
+    border-bottom: 2px solid #29E4B6;
+    text-decoration: none;
+}
+
+p a:hover, li a:hover {
+    cursor: pointer;
+    border-bottom: 0px solid;
+    color: #29E4B6;
+    text-decoration: none;
+}
+
+h1 a {
+    background-color: #29E4B6;
+    color: rgba(0,0,0,1);
+    padding: 0px 8px 0px 8px;
+    margin: 0px 5px;
+}
+
+h1 a:hover {
+    background-color: #DDDC26;
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+}
+
+strong {
+    color: rgb(163, 46, 62);
+}
+
+/* Logos */
+
+#pre-logo {
+    background-color:#fff;
+    width:100%;
+    height:auto;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+    margin: auto;
+}
+
+#logo {
+    background-color:#fff;
+    width:100%;
+    height:auto;
+    display:block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+    margin: auto;
+}
+

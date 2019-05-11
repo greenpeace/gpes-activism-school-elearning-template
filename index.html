@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Plantilla de e-learning para la Escuela de Activismo</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Source+Sans+Pro:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.2/lottie.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h1>E-learning para la <a href="https://escueladeactivismo.org/" target="_blank">Escuela de Activismo</a></h1>
+                    <h2 class="slogan">Prepárate para cambiar el planeta</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Logo animado</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div id="pre-logo"></div>
+                    <script src="js/anim-logo-data.js"></script>
+                    <script>
+                        var paramsPreLogo = {
+                            container: document.getElementById('pre-logo'),
+                            renderer: 'svg',
+                            loop: true,
+                            autoplay: true,
+                            animationData: animationDataPreLogo
+                        };
+
+                        var anim1;
+                        anim1 = lottie.loadAnimation(paramsPreLogo);
+
+                    </script>
+
+                </div>
+                <div class="col-md">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col-md">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Logo sencillo</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="logo"></div>
+
+                    <script src="js/logo-data.js"></script>
+                    <script>
+                        var paramsLogo = {
+                            container: document.getElementById('logo'),
+                            renderer: 'svg',
+                            loop: true,
+                            autoplay: true,
+                            animationData: animationDataLogo
+                        };
+                        var anim2;
+                        anim2 = lottie.loadAnimation(paramsLogo);
+                    </script>
+                </div>
+                <div class="col-md-9">
+                    <p><a href="https://es.greenpeace.org/" target="_blank">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit, <strong>sed do eiusmod tempor incididunt ut labore</strong> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Iconos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <img src="img/Campamentos-principal.svg" class="img-fluid" alt="Campamentos" />
+                </div>
+                <div class="col-sm">
+                    <img src="img/Formacion-Offline-principal.svg" class="img-fluid" alt="Formacion offline" />
+                </div>
+                <div class="col-sm">
+                    <img src="img/Formacion-Online-principal.svg" class="img-fluid" alt="Formacion online" />
+                </div>
+                <div class="col-sm">
+                    <img src="img/Toolkit-principal.svg" class="img-fluid" alt="Formacion online" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Imagen y video</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h3>Imagen</h3>
+                    <p><img src="img/GP0STT8V7.jpg" class="img-fluid" /></p>
+                </div>
+                <div class="col-sm">
+                    <h3>Video...</h3>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/phH8UEgFODA?rel=0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Referencias</h2>
+                    <ul>
+                        <li><a href="https://escueladeactivismo.org/" target="_blank">Sitio web</a></li>
+                        <li><a href="https://www.freepress.coop/guia-escuela-de-activismo/" target="_blank">Guía de identidad visual</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+        <!-- Configure the page score (0-100)
+             Conf. the minimum time for this page to be considered completed in seconds -->
+        <script>
+            var pageScore = 1;
+            var minCompletedTime = 30;
+        </script>
+        <!-- Uncomment the following line to enable comunication with the LMS (for example Moodle) -->
+        <!-- <script src="https://storage.googleapis.com/gp-misc/e-learning/scormfunctions.js"></script> -->
+
+    </body>
+
+</html>
