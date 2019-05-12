@@ -1,18 +1,20 @@
 # School of Activism e-learning template 
 
+This is an example of an e-learning package with part of the visual identity for The Activism School, a project by Greenpeace Spain and Novact. If you know html you can clone this repository, add your content and create a SCORM package that can be uploaded to Moodle or any other LMS that supports this format.
+
 ## Create your lesson
 
 ### 1 - Clone or download this lesson
 
 ```bash
-git clone https://github.com/greenpeace/gpes-activism-school-elearning-template.git)
+git clone https://github.com/greenpeace/gpes-activism-school-elearning-template.git
 ```
 
 **[Download](https://github.com/greenpeace/gpes-activism-school-elearning-template/archive/master.zip)**
 
 ### 2 - Edit this lesson 
 
-This is an html5 lesson, so if you know some html and css editing should be easy to do. It uses [Bootstrap](https://getbootstrap.com/) and [jQuery](https://jquery.com/) the world’s most popular libraries.
+You just need a code editor like [Brackets](http://brackets.io/). This lesson uses [Bootstrap](https://getbootstrap.com/) and [jQuery](https://jquery.com/) the world’s most popular libraries. Read their documentation for more information.
 
 ## Create an elearning SCORM package
 
@@ -54,3 +56,7 @@ zip -r mylesson.zip *
 ```
 
 Upload `mylesson.zip` to [Moodle, as a SCORM package](https://docs.moodle.org/36/en/SCORM_settings). (It should work with any **L**earning **M**anagement **S**ystem that supports SCORM).
+
+### Notes
+
+Please note that LMSes like Moodle have many options to configure their SCORM lessons. Please test your package and read your LMS documentation.
