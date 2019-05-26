@@ -164,3 +164,81 @@ strong {
 label {
     font-weight: 700;
 }
+
+/* CAJAS */
+
+.caja-beige {
+    background-color: #F3EEE3;
+    border-radius: 0;
+    border: none;
+    margin: 1em 0 1em 0;
+}
+
+.caja-amarillo-verdoso {
+    background-color: #DDDC26;
+    border-radius: 0;
+    border: none;
+    margin: 1em 0 1em 0;
+}
+
+.caja-verde-aquamarina {
+    background-color: #29E4B6;
+    border-radius: 0;
+    border: none;
+    margin: 1em 0 1em 0;
+}
+
+.caja-verde-greenpeace {
+    background-color: #66cc00;
+    border-radius: 0;
+    border: none;
+    margin: 1em 0 1em 0;
+}
+
+.caja-naranja-oscuro {
+    background-color: #FF5100;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    margin: 1em 0 1em 0;
+}
+
+.caja-naranja-oscuro h2, .caja-naranja-oscuro h3, .caja-naranja-oscuro h4 {
+    color: #fff;
+}
+
+.caja-azul-intenso {
+    background-color: #01A3FE;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    margin: 1em 0 1em 0;
+}
+
+.caja-azul-intenso h2, .caja-azul-intenso h3, .caja-azul-intenso h4 {
+    color: #fff;
+}
+
+.caja-granate-novact {
+    background-color: #A32E3E;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    margin: 1em 0 1em 0;
+}
+
+.caja-granate-novact h2, .caja-granate-novact h3, .caja-granate-novact h4 {
+    color: #fff;
+}
+
+.caja-negro-textos {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    margin: 1em 0 1em 0;
+}
+
+.caja-negro-textos h2, .caja-negro-textos h3, .caja-negro-textos h4 {
+    color: #fff;
+}
