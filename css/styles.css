@@ -138,6 +138,10 @@ strong {
     border-color: #fff;
 }
 
+.form-group {
+    margin: 1em 0 2em 0;
+}
+
 .form-control {
     display: block;
     width: 100%;
