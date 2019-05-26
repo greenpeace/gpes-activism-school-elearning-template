@@ -40,6 +40,10 @@ footer {
     font-weight: 400;
 }
 
+.pullquote {
+    font-family: "Inconsolata";
+}
+
 p a, li a {
     color: #000000;
     border-bottom: 2px solid #29E4B6;
